@@ -1,6 +1,5 @@
 import { Buffer } from "node:buffer";
-import * as JoiModule from "joi";
-const Joi = JoiModule.default;
+import * as Joi from "joi";
 
 export interface CertificatesSchema {
 	wwdr: string | Uint8Array;
